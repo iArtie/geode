@@ -18,6 +18,8 @@ else()
 	set(PROJECT_VERSION_SUFFIX "" CACHE INTERNAL "" )
 endif()
 
+# I just put a new line to compile geode, hiii
+
 # I think CMake is trying to link zlib from the host system?
 # This prevents it from doing that.
 if (WIN32 AND CMAKE_CROSSCOMPILING)
