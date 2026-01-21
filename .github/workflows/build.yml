@@ -39,6 +39,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
       with:
+        bindings: iArtie/bindings
         submodules: recursive
 
     - name: Prepare for Build Debug Info
